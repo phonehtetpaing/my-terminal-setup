@@ -13,3 +13,6 @@ https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/M-DZ/Reg
 
 ## Use setting .zshrc
 Install plugins
+
+## Fonts
+https://github.com/MartinSeeler/iterm2-material-design
