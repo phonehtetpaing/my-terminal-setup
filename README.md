@@ -12,6 +12,10 @@ p10k configure
 
 ## Use setting .zshrc
 Install plugins
+### Useful plugins
+ coc.nvim/        nerdcommenter/             onedark.vim/          vim-airline/              vim-gitgutter/       vim-javascript/
+       ctrlp.vim/       nerdtree/                  supertab/             vim-airline-themes/       vim-go/              vim-jsx-pretty/
+       fzf/             nerdtree-git-plugin/       typescript-vim/       vim-devicons/             vim-graphql/         vim-nerdtree-syntax-highlight/
 
 ## Fonts
 https://github.com/MartinSeeler/iterm2-material-design
