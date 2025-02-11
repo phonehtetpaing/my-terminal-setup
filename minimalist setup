@@ -1,0 +1,18 @@
+# Basic Environment Setup
+export PATH="/opt/homebrew/bin:$PATH"
+PROMPT="➜ %1~ "
+
+# MySQL
+export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
+
+# Yarn global binaries
+export PATH="$(yarn global bin):$PATH"
+
+# Node.js & NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+
+# Zsh plugins
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
