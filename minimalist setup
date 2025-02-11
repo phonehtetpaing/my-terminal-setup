@@ -1,6 +1,6 @@
 # Basic Environment Setup
 export PATH="/opt/homebrew/bin:$PATH"
-PROMPT="➜ %1~ "
+PROMPT="%1~ ➜ "
 
 # MySQL
 export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
